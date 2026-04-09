@@ -6,10 +6,13 @@ Este projeto integra o MVP da disciplina de **Análise de Dados e Boas Práticas
 O objetivo central é identificar padrões demográficos e geográficos que permitam validar hipóteses sobre o impacto social da violência e preparar os dados para futuros modelos de classificação e predição.
 
 ## 🚀 Hipóteses Investigadas
-1. **Perfil Etário:** A violência armada vitima predominantemente jovens em idade produtiva e escolar.
-2. **Densidade Urbana:** Os eventos de tiroteios apresentam alta clusterização em manchas urbanas específicas e litorâneas.
-3. **Padrão Temporal:** Existe uma correlação direta entre a rotina de mobilidade urbana e os picos de ocorrências.
 
+1. **Padrão Geracional:** Existe uma concentração estatística da violência armada na faixa etária correspondente aos jovens adultos (confirmada pela mediana de 28 anos e intervalo interquartil entre 22 e 38 anos).
+
+2. **Concentração Territorial:** A violência armada manifesta-se de forma clusterizada em polos de alta densidade urbana, apresentando baixíssima dispersão geográfica (conforme validado pelos boxplots de latitude e longitude).
+
+3. **Sazonalidade Temporal:** A ocorrência de tiroteios segue um padrão não aleatório, com ciclos de repetição que coincidem com a rotina de mobilidade urbana e dinâmica funcional das metrópoles.
+   
 ## 📊 Principais Insights da Análise Exploratória
 
 ### 1. Análise de Idade (Quartis e Mediana)
